@@ -11,7 +11,7 @@ resource "aws_security_group" "allow_tls" {
 
 }
   ingress { 
-    descripsion =  
+    ##description =this is ingress 
     from_port   = 80 
     to_port     = 80
     protocol    = "tcp" 
@@ -27,6 +27,6 @@ resource "aws_security_group" "allow_tls" {
 } 
 
 tags = {
-    name =
+    name = "security_group"
 }
  
