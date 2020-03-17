@@ -3,5 +3,6 @@ terraform {
     bucket = "terraform-class-aizirek"
     key    = "path/to/my/key"
     region = "us-east-1"
-     dynamodb_table = "terraform-class"
-     }
+    # dynamodb_table = "terraform-class"
+  }
+}

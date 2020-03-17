@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-class-aizirek"
+    bucket = "terraform-class-andrii"
     key    = "path/to/my/key"
     region = "us-east-1"
     #dynamodb_table = "terraform-class"
