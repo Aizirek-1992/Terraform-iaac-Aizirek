@@ -9,7 +9,15 @@ region = "us-east-1"
 s3_bucket                       =	"terraform-class-andrii"
 =======
 s3_bucket                       =	"terraform-class-aizirek"
->>>>>>> 8cf3482143e421f0d8a1cb437ac503cc4518dcc7
+
+
+
+
+
+
+
+
+
 s3_folder_region                =	"us-east-1"
 
 # This is used for VPC CIDR BLOCK
