@@ -3,7 +3,7 @@ data "terraform_remote_state" "dev" {
   backend = "s3"
   config = {
     bucket = "terraform-class-aizirek"
-    key    = "tower/us-east-1/tools/virginia/tower.tfstate"
+    key    = "tower/us-east-1/tools/Virginia/tower.tfstate"
     region = "us-east-1"
   }
 }
