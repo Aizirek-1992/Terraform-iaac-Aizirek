@@ -5,9 +5,8 @@ environment                     =   	"virginia"
 
 region = "us-east-1"
 
-<<<<<<< HEAD
-s3_bucket                       =	"terraform-class-andrii"
-=======
+
+
 s3_bucket                       =	"terraform-class-aizirek"
 
 
